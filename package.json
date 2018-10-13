@@ -1,0 +1,41 @@
+{
+  "name": "metaquotes-test-task",
+  "version": "1.0.0",
+  "description": "test task for metaquotes.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.mode development",
+    "build": "webpack --env.mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shavenzov/metaquotes-test-task.git"
+  },
+  "author": "Denis Shavenzov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shavenzov/metaquotes-test-task/issues"
+  },
+  "homepage": "https://github.com/shavenzov/metaquotes-test-task#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
+    "autoprefixer": "^9.1.5",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.14.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "worker-loader": "^2.0.0"
+  }
+}

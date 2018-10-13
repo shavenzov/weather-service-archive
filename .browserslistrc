@@ -1,0 +1,4 @@
+#Run "npx browserslist" in project directory to see what browsers was selected by your queries
+
+#Global coverage:82.37% (info from https://browserl.ist/?q=%3E+1%25)
+> 1%
