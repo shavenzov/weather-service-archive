@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shavenzov/metaquotes-test-task.git"
+    "url": "git+https://github.com/shavenzov/weather-service-archive.git"
   },
   "author": "Denis Shavenzov",
   "license": "ISC",
