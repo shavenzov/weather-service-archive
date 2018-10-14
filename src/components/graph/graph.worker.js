@@ -63,7 +63,7 @@ onmessage = ( { data: { graphWidth, meanMinValue, meanMaxValue, minValue, maxVal
     //Calculate average value per current pixel
     const averageValue = pixelSamples.reduce( ( accumulator, currentValue ) => accumulator + currentValue, 0 ) / pixelSamples.length;
      
-    //Push darw info per pixel
+    //Push draw info per pixel
     drawInfo.push( {
       v: averageValue,
       t: timeIntervalsPerPixel,

@@ -141,7 +141,7 @@ export default class LocalSource{
                 reject( error );
             } )
             
-        } )
+        } ).catch( error => reject( db.error ) );
 
     }
 
@@ -230,9 +230,27 @@ export default class LocalSource{
                   reject( transaction.error );
                }
                
-            } )
+            } ).catch( error => reject( db.error ) );
           }
        )
+    }
+
+    /**
+     * Clears all storages
+     * @public
+     */
+    clearAll(){
+        return new Promise( ( resolve, reject ) => {
+
+            const request = this.indexedDB.deleteDatabase( this.DB_NAME );
+                  request.onerror = () => {
+                        reject( request.error );
+                    };
+               
+                  request .onsuccess = function(event) {
+                   resolve();
+                  };
+        } )
     }
 
     /**
