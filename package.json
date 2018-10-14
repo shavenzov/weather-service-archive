@@ -14,9 +14,9 @@
   "author": "Denis Shavenzov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shavenzov/metaquotes-test-task/issues"
+    "url": "https://github.com/shavenzov/weather-service-archive/issues"
   },
-  "homepage": "https://github.com/shavenzov/metaquotes-test-task#readme",
+  "homepage": "https://github.com/shavenzov/weather-service-archive#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -31,7 +31,6 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.14.3",
     "style-loader": "^0.23.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.2",
