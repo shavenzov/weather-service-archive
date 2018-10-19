@@ -43,4 +43,4 @@
 
 ### Реализпция
 
-Рабочую версию приложения можно посмотреть здесь : :rainbow:https://shavenzov.github.io/weather-service-archive/:rainbow:
+Рабочую версию приложения можно посмотреть здесь : :cloud_with_lightning_and_rain: https://shavenzov.github.io/weather-service-archive/ :cloud_with_lightning_and_rain:
