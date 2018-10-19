@@ -41,6 +41,6 @@
 - Проявление инициативы сверх основного задания приветствуется
 - При разработке функционала нужно сделать упор на производительность и скорость работы как интерфейса приложения, так и обработки полученных с сервера данных
 
-### Реализпция
+### Реализация
 
-Рабочую версию приложения можно посмотреть здесь : :cloud_with_lightning_and_rain: https://shavenzov.github.io/weather-service-archive/ :cloud_with_lightning_and_rain:
+Смотрим здесь готовое приложение : :cloud_with_lightning_and_rain: https://shavenzov.github.io/weather-service-archive/ :cloud_with_lightning_and_rain:
